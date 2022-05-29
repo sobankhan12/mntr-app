@@ -1,0 +1,289 @@
+/* The main.scss for overwriting in global scope */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-Regular.ttf") format("ttf")
+}
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("../assets/fonts/Manrope-Bold.ttf") format("ttf")
+}
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url("../assets/fonts/Manrope-Regular.ttf") format("ttf")
+}
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url("../assets/fonts/Manrope-Medium.ttf") format("ttf")
+}
+@font-face {
+  font-family: "Manrope-Light";
+  src: url("../assets/fonts/Manrope-Light.ttf") format("ttf")
+}
+@font-face {
+  font-family: "Manrope-SemiBold";
+  src: url("../assets/fonts/Manrope-SemiBold.ttf") format("ttf")
+}
+
+
+#app {
+  font-family: Manrope-Regular, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #c0c0c0;
+}
+
+
+
+input:-internal-autofill-selected  {
+  background: transparent !important;
+}
+
+
+.v-btn {
+  font-size: 12px;
+  text-transform: none;
+}
+
+/*TODO: below not being removed via elevation="0" - find out why*/
+.v-stepper__header {
+  box-shadow: none !important;
+}
+
+/* TODO: Use conditional logic inline for active class border */
+.step-wrapper.active {
+  border-color: #FF8D3D !important; 
+}
+
+/*TODO: Vuetify this */
+#nav .v-btn__content {
+  font-size: 14px;
+  text-transform: none;
+}
+
+/*TODO: Vuetify this */
+.v-btn {
+  border-radius: 6px;
+  letter-spacing: 0px;
+  font-size: 16px;
+}
+
+
+/* TODO: Clean up these - Vuetify switch toggle overrides */
+.v-input--switch__thumb {
+  height: 15px;
+  width: 15px;
+}
+.v-input--switch--inset .v-input--switch__track {
+  height: 23px;
+}
+.v-input--selection-controls__ripple {
+  height: 30px;
+  width: 30px;
+}
+.v-input--switch--inset .v-input--switch__track, .v-input--switch--inset .v-input--selection-controls__input {
+  width: 43px;
+}
+.v-toolbar__content .v-input--switch {
+    height: 20px;
+}
+
+
+/* TODO: Clean up these - Vuetify Progress section style overrides */
+.v-stepper__header .v-stepper__step__step {
+  margin: 0 !important;
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+}
+.v-stepper__step__step .v-icon__svg {
+  height: 16px;
+  width: 16px;
+}
+.theme--light.v-stepper .v-stepper__step:not(.v-stepper__step--active):not(.v-stepper__step--complete):not(.v-stepper__step--error) .v-stepper__step__step {
+  background: transparent !important;
+  border: 2px solid #EDEDED !important;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 700 !important;
+}
+.theme--light.v-stepper .v-stepper__header .v-divider {
+  border-block-width: 1px !important;
+  border-color: #EDEDED !important;
+  opacity: 1;
+}
+.theme--dark.v-stepper .v-stepper__step:not(.v-stepper__step--active):not(.v-stepper__step--complete):not(.v-stepper__step--error) .v-stepper__step__step {
+  background: transparent !important;
+  border: 2px solid #414649 !important;
+  color: #414649;
+  font-weight: 700 !important;
+}
+.theme--dark.v-stepper .v-stepper__header .v-divider {
+  border-block-width: 1px !important;
+  border-color: #414649 !important;
+  opacity: 1;
+}
+.v-stepper .v-stepper__header .v-divider.complete {
+  border-color: #FE6F0A !important;
+}
+
+
+/*Form field overrides*/
+
+.v-label {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #FE6F0A;
+  font-weight: 600;
+  font-size: 14px;
+}
+.v-label.capability-label {
+  text-align: left !important;
+  margin-bottom: 10px !important;
+
+}
+.v-text-field .v-input__slot {
+  box-shadow: none !important;
+  height: 50px !important;
+}
+
+.v-text-field--outlined fieldset {
+  top: 0 !important;
+}
+
+// .v-text-field--outlined fieldset {
+//   border-width: 1px !important;
+//   border-color: #DFDFDF !important;
+//   background-color: #F8F8F8 !important;
+// }
+
+.v-text-field--outlined.v-input--is-focused fieldset, .v-text-field--outlined.v-input--has-state fieldset {
+  border-width: 1px !important;
+  border-color: #DFDFDF !important;
+  background-color: #F8F8F8;
+}
+
+.theme--dark.v-stepper .v-text-field--outlined fieldset {
+  border-width: 1px !important;
+  border-color: #272B2E !important;
+  background-color: #272B2E !important;
+}
+
+/*.theme--dark.v-stepper .v-text-field--outlined.v-input--is-focused fieldset, .v-text-field--outlined.v-input--has-state fieldset {
+  border-width: 1px !important;
+  border-color: #272B2E !important;
+  background-color: #272B2E !important;
+}*/
+
+.v-input__slot .v-text-field__slot {
+  background: transparent !important;
+}
+
+// .v-text-field--filled > .v-input__control > .v-input__slot, .v-text-field--full-width > .v-input__control > .v-input__slot, .v-text-field--outlined > .v-input__control > .v-input__slot {
+//   min-height: 0px !important;
+// }
+
+.v-text-field input {
+  padding: 8px 5px 8px 5px !important;
+}
+
+.v-label span {
+  font-weight: normal;
+  color: #5C6166;
+}
+
+.theme--dark .v-label span {
+  font-weight: normal;
+  color: #6E777E;
+}
+
+.v-messages__message {
+  margin-left: -10px;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #5C6166;
+}
+
+.v-text-field__details {
+  overflow: visible !important;
+}
+
+.theme--dark .v-messages__message {
+  color: #6E777E;
+}
+
+
+
+
+
+.v-file-input {
+  border: 2px dashed #D2D2D2;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.v-file-input .v-input__prepend-outer {
+  width: 100% !important;
+}
+
+.v-file-input .v-input__icon--prepend {
+  width: 100% !important;
+  height: 120px !important;
+  cursor: pointer;
+}
+
+.v-file-input .v-input__icon--prepend .v-icon.v-icon.v-icon--link {
+  height: 120px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 45px;
+  color: #5C6166;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.file-upload .v-icon__svg {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.theme--dark  .v-file-input .v-input__icon--prepend .v-icon.v-icon.v-icon--link {
+  color: #B2BEC8;
+}
+.v-icon.v-icon::after {
+  content: none;
+}
+
+.v-application .error--text .v-messages__message {
+  color: #950000 !important;
+  caret-color: #950000 !important;
+}
+
+.approve-icon .v-icon__component {
+    height: 80px !important;
+    width: 80px !important;
+  }
+/*.capability .v-icon__component {
+  height: 30px !important;
+  width: 30px !important;
+}*/
+
+/*.theme--light.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn-outlined) {
+  background-color: #F8F8F8 !important;
+  border: 1px solid #DFDFDF !important;
+}*/
+
+.color-lightskyblue{
+  color: lightskyblue;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}

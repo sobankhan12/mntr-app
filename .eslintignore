@@ -1,0 +1,7 @@
+tests/**/*.*
+tpl/**/*.*
+plopfile.js
+jest.config.js
+vue.config.js
+src/plugins/create-logger.js
+src/store/**/*.*

@@ -1,0 +1,72 @@
+<template>
+  <svg
+    id="Layer_1"
+    version="1.0"
+    xmlns:x="&ns_extend;"
+    xmlns:i="&ns_ai;"
+    xmlns:graph="&ns_graphs;"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    x="0px"
+    y="0px"
+    viewBox="0 0 800 1200"
+    style="enable-background:new 0 0 800 1200;"
+    xml:space="preserve"
+    fill="#fff"
+  >
+
+    <g i:extraneous="self">
+      <g>
+        <g>
+          <path
+            class="st0"
+            d="M34.2,476.7l85.1-66.5c18.1-14.1,39.3-23.8,61.9-28c42.6-7.8,110.8-7.9,169,48.2c0,0,108-91.5,248.9-9
+					c0,0-43,4.4-93.6,61.7c0,0-61.7,0.2-80.4,26.6c0,0-19.8,14.3-21.5,63.9c-1.7,49.5,1.1,254.9,1.1,254.9H294.1l3.1-258.5
+					c0.3-22.8-7.9-45.1-23.6-61.5c-11.8-12.3-28.7-22.7-52.4-22.9s-40.9,10.2-53,22.8c-16.3,17-24.9,39.9-24.9,63.4l-0.5,257.1H34.2
+					L34.2,476.7z"
+          />
+        </g>
+        <g>
+          <path
+            class="st0"
+            d="M556.1,699.9L556.1,699.9c36.1-5.1,70.2-19.5,98.9-41.8l11.2-8.7v179.5H556.1V699.9z"
+          />
+        </g>
+        <linearGradient
+          id="SVGID_1_"
+          gradientUnits="userSpaceOnUse"
+          x1="498.2067"
+          y1="511.6106"
+          x2="787.3543"
+          y2="557.5272"
+        >
+          <stop
+            offset="0.141"
+            style="stop-color:#FE791A"
+          />
+          <stop
+            offset="0.2892"
+            style="stop-color:#FE832B"
+          />
+          <stop
+            offset="0.5277"
+            style="stop-color:#FF8F3F"
+          />
+          <stop
+            offset="0.7654"
+            style="stop-color:#FF974B"
+          />
+          <stop
+            offset="1"
+            style="stop-color:#FF994F"
+          />
+        </linearGradient>
+        <path
+          class="st1"
+          d="M477.2,666.3c0,0,121.7-79.5,135.4-99.4L509.5,689.6c0,0,134.8-6.5,208.7-134.4c0,0,44.7-74.2,48.1-177.2
+				C766.3,378,435,427.2,477.2,666.3z"
+        />
+      </g>
+    </g>
+  </svg>
+</template>

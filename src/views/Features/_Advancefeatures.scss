@@ -1,0 +1,118 @@
+.advance-features {
+  font-family: Manrope;
+  .top-section {
+    background: url("~@/assets/feature-background.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 360px;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    margin-top: -1%;
+    .info-container {
+      // width: 40%;
+      text-align: left;
+      padding-top: 125px;
+      padding-left: 80px;
+      h1 {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-family: Open Sans;
+      }
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 142.69%;
+        font-family: Manrope;
+      }
+      .v-btn__content {
+        color: #FE6F0A !important;
+      }
+    }
+  }
+  .cards-section {
+    margin-top: 80px;
+    padding: 0 40px;
+    .heading {
+      h1 {
+        font-weight: 600;
+        font-size: 32px;
+      }
+    }
+    .v-card {
+      border-color:  rgba(0, 0, 0, 0.12) !important;
+      .v-card__text {
+        padding: 20px 23px 20px 28px;
+        h4 {
+          text-align: left;
+          font-weight: 600;
+          font-size: 24px;
+          color: #FE6F0A;
+          padding-top: 16px;
+        }
+        p {
+          text-align: left;
+          font-size: 16px;
+          line-height: 161%;
+        }
+      }
+    }
+  }
+}
+// .theme--dark{
+//   .advance-features{
+//     .v-card {
+//       border: 1px solid #414649 !important;
+//     }
+//   }
+// }
+@media (max-width: 780px) {
+  .advance-features {
+    .top-section {
+      .info-container {
+        padding-top: 75px;
+        padding-left: 30px;
+      }
+    }
+    .cards-section {
+      padding: 0 10px;
+      .heading {
+        h1 {
+          font-size: 24px;
+        }
+      }
+      .v-card {
+        &__text {
+          p {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .v-card {
+    margin: 0 10px;
+  }
+  .advance-features {
+    .top-section {
+      .info-container {
+        text-align: center;
+        padding-left: 0;
+        p {
+          font-weight: 500;
+          font-size: 20px;
+        }
+        .v-btn {
+          width: 123px !important;
+          height: 40px !important;
+        }
+      }
+    }
+  }
+}

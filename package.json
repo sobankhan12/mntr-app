@@ -1,0 +1,97 @@
+{
+  "name": "mintr-app",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:development": "vue-cli-service serve --mode=development",
+    "serve:production": "vue-cli-service serve --mode=production",
+    "build": "vue-cli-service build",
+    "build:qa": "vue-cli-service build --mode=qa",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "plop": "plop",
+    "docs": "docsify serve ./docs"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.3.95",
+    "@mdi/js": "^5.9.55",
+    "@popperjs/core": "^2.9.3",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.0",
+    "cloudinary-vue": "^1.2.3",
+    "core-js": "^3.6.5",
+    "ethers": "^5.5.3",
+    "moralis": "0.0.118",
+    "vue": "^2.6.11",
+    "vue-glide-js": "^1.3.14",
+    "vue-i18n": "^8.25.0",
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.8",
+    "vuetify-async-validation": "^1.0.2",
+    "vuex": "^3.6.2",
+    "web3-eth-contract": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.2.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "plop": "^2.7.4",
+    "prettier": "^2.3.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "^2.4.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue-upload-component": "^2.8.22",
+    "vuetify-loader": "^1.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {},
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest"
+    }
+  }
+}

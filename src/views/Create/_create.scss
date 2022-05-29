@@ -1,0 +1,199 @@
+/* SCSS for Create */
+#create {
+  font-family: Manrope;
+  .v-label {
+    color: #fe6f0a;
+  }
+  .v-icon--disabled {
+    opacity: 0.25;
+  }
+  .tokenomics {
+    .v-input__slot {
+      height: 50px !important;
+    }
+    .v-messages__message {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 138.19%;
+    }
+  }
+  .v-stepper {
+    .stepper-wrap {
+      .v-stepper__label {
+        font-family: Manrope;
+        font-size: 20px;
+      }
+    }
+  }
+  .v-input__control {
+    .v-input__slot {
+      background: #F8F8F8;
+      border: 1px solid #DFDFDF;
+    }
+  }
+}
+.resume-minting {
+  h3 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .mdi-alert-circle-outline {
+    color: #ff7a1d;
+    font-size: 26px;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+  }
+}
+.v-dialog {
+  .v-card {
+    .v-card__text {
+      padding: 60px 20px 25px 20px !important;
+    }
+  }
+}
+.v-image {
+  z-index: 1;
+}
+.w-auto {
+  width: auto;
+}
+.theme--dark {
+  #create {
+    .v-stepper {
+      .stepper-wrap {
+        .v-stepper__label {
+          color: #b2bec8;
+        }
+      }
+      .capability {
+        .v-card {
+          .v-input__slot {
+            background: #3f4548;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+    h5 {
+      color: #b2bec8;
+    }
+    small {
+      color: #b2bec8;
+    }
+    .v-input__control {
+      .v-input__slot {
+        background: #2B3033;
+        border: 1px none !important;
+      }
+    }
+  }
+}
+@media (max-width: 1100px) {
+  #create {
+    .v-stepper {
+      .stepper-wrap {
+        padding: 30px !important;
+      }
+    }
+  }
+  .container {
+    max-width: 100% !important;
+  }
+  .v-stepper {
+    max-width: 100% !important;
+    .v-form {
+      padding: 0 !important;
+      .capability {
+        .v-card {
+          padding: 5px 12px 12px 12px !important;
+          .v-card__title {
+            white-space: nowrap;
+            font-size: 14px;
+            font-weight: 600;
+          }
+          .v-card__text {
+            font-size: 12px;
+          }
+        }
+      }
+      .auditing {
+        .auditing-content {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// Mobile View
+@media (max-width: 600px) {
+  #create {
+    .v-btn {
+      width: 123px !important;
+      height: 40px !important;
+    }
+    .summary-confirmation {
+      h3 {
+        font-size: 30px;
+        padding: 0 50px;
+      }
+      .text-left {
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .text-right {
+        font-size: 14px;
+        font-weight: 400;
+        width: 50%;
+        overflow: hidden;
+      }
+      .v-btn {
+        width: 85px !important;
+        height: 31px !important;
+      }
+      .confirm-footer {
+        padding-left: 8px;
+        .v-btn {
+          width: 140px !important;
+          height: 50px !important;
+          font-size: 9px;
+        }
+      }
+    }
+    .basic-info {
+      .v-input__slot {
+        height: 41px !important;
+      }
+    }
+    .tokenomics {
+      .v-input__slot {
+        height: 41px !important;
+      }
+      .v-messages__message {
+        width: 248px;
+      }
+    }
+  }
+  .resume-minting {
+    .v-btn {
+      width: 104px !important;
+      min-width: 104px !important;
+      height: 36px !important;
+    }
+    .v-btn--outlined {
+      width: 104px !important;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+      width: 150px;
+      margin: auto;
+    }
+  }
+}

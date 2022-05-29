@@ -1,0 +1,130 @@
+ [
+    {
+        "name": "BaseTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistBurnMintTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistBurnMintTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistBurnMintTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistBurnMintWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistBurnTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistBurnTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistBurnTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistBurnWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistMintTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistMintTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistMintTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistMintWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BlacklistTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BlacklistWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BurnMintTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BurnMintTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BurnMintTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BurnTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "BurnTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BurnTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "BurnWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "MintTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "MintTxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "MintTxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "MintWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "TxFeeTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "TxFeeWhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_, uint256 txFee, address txFeeBeneficiary)"
+    },
+    {
+        "name": "WhiteListMintBurnTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    },
+    {
+        "name": "WhiteListTemplate",
+        "initializer": "function initialize(string name_, string symbol_, uint8 decimals_, uint256 amount_)"
+    }
+]

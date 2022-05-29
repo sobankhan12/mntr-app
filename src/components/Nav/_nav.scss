@@ -1,0 +1,30 @@
+/* SCSS for  */
+#nav {
+	.nav-links {
+
+		a {
+			transition: 0.3s;
+
+			&:hover {
+				color: #FE6F0A !important;
+			}
+		}
+	}
+	.logo {
+		cursor: pointer;
+	}
+}
+.v-sheet {
+  position: relative !important;
+}
+.v-navigation-drawer {
+  position: absolute !important;
+  top: 85px !important;
+}
+.v-app-bar {
+	.nav-drawer {
+		.v-btn__content {
+			color: #FE6F0A;
+		}
+	}
+}

@@ -1,0 +1,174 @@
+.my-token {
+    font-family: Manrope;
+    .no-token {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+    }
+    .view {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 138.19%;
+      color: #fe6f0a;
+      cursor: pointer;
+    }
+    .datatable {
+      margin-top: 20px;
+      .v-data-table {
+        &-header {
+          th {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+    .capabilities-items {
+      &__item {
+        border: 1px solid #d9d7d7;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 25px;
+        width: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        cursor: pointer;
+        :hover {
+          filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+            brightness(104%) contrast(97%);
+        }
+      }
+    }
+    .cap-logo {
+      margin-right: 5px !important;
+      max-height: 30px;
+      max-width: 30px;
+    }
+    .token-name {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 138.19%;
+      color: #372f2f;
+      &__short {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 138.19%;
+        color: #6d767d;
+      }
+    }
+    &-header {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      background: url("~@/assets/my-token-background.png") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 360px;
+      width: 100vw;
+      position: relative;
+      margin-left: -50vw;
+      left: 50%;
+      .header {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 138.19%;
+        color: #ffffff;
+        margin-top: 64px;
+      }
+      .content-text {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 151.7%;
+        text-align: center;
+        color: #ffffff;
+        max-width: 700px;
+        background: #fe6f0a;
+        margin: 0 auto;
+      }
+      .search {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        &-field {
+          margin: 40px 0;
+          max-width: 1060px;
+          padding: 0 16px;
+        }
+        .mdi-magnify {
+          color: #fe6f0a;
+        }
+        .v-text-field__slot {
+          .v-label {
+            color: #5C6166;
+            opacity: 0.5;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    fieldset {
+      background-color: transparent !important;
+    }
+  }
+.theme--dark {
+  .my-token-header {
+    .v-text-field__slot {
+      input {
+        color: #adb0b2 !important;
+      }
+    }
+  }
+  .my-token {
+    .datatable {
+      .v-data-table {
+        background-color: #272b2e !important;
+      }
+    }
+    .search {
+      .v-input__slot {
+        background: #2f3437 !important;
+        border: 1px solid #414649;
+        .v-label {
+          font-weight: 300;
+          font-size: 14px;
+          color: #b2bec8;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+// Mobile View
+@media (max-width: 600px) {
+  .my-token {
+    &-header{
+      .header { font-size: 24px; }
+      .content-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 152%;
+        padding: 0 30px;
+      }
+      .search {
+        margin-top: 20px;
+      }
+    } 
+  }
+}

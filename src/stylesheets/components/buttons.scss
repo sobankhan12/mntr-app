@@ -1,0 +1,26 @@
+.mintr-button{
+  &__text{
+    width: max-content  !important;
+    background: none  !important;
+    background-color: transparent  !important;
+    border: none  !important;
+    box-shadow: none  !important;
+    padding: 0 !important;
+    transition: none !important;
+    &:hover,&:focus, &:active{
+      width: max-content  !important;
+      background: none  !important;
+      background-color: transparent  !important;
+      border: none  !important;
+      box-shadow: none  !important;
+      padding: 0 !important;
+      transition: none !important;
+    }
+    &:before, &:after{
+      background-color: transparent  !important;
+    }
+    .v-ripple__container{
+      display: none !important;
+    }
+  }
+}

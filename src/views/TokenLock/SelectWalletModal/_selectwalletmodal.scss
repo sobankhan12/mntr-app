@@ -1,0 +1,54 @@
+.select-wallet {
+  .button-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .headline {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    padding: 40px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .v-list-item__content {
+    padding: 0 !important;
+  }
+  .v-card__title {
+    padding: 0 !important;
+  }
+  .spacing {
+    padding: 28px 0 36px 0 !important;
+  }
+  .mdi-close-circle {
+    position: absolute !important;
+    z-index: 1;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+  }
+  .bottom-space {
+    margin-bottom: 25px;
+  }
+  .wallet-warn{
+    font-size: 14px;
+  }
+}
+.v-dialog {
+  position: relative;
+  max-height: 100% !important;
+  overflow-y: visible !important;
+  box-shadow: none !important;
+}
+@media (max-width: 600px) {
+  .select-wallet {
+    .v-btn:not(.v-btn--round).v-size--default {
+      height: 36px;
+      min-width: 250px;
+      padding: 0;
+      width: 40% !important;
+    }
+  }
+}

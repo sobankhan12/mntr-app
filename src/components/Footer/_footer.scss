@@ -1,0 +1,105 @@
+/* SCSS for  */
+.footer {
+  padding: 0 !important;
+  font-family: Manrope;
+  .v-footer {
+    width: 100%;
+    padding: 54px 80px;
+    .powered-by-container {
+      text-align: left;
+      .powered-by { display: flex; font-size: 16px; margin-top: 25px; align-items: center;}
+      .tag-line { display: block; font-size: 16px; font-weight: 600; margin-top: 23px;}
+      .v-image__image--cover {
+        background-size: auto;
+        background-position: center left !important;
+        margin-left: 8px;
+    }
+    }
+    .heading {
+      color: #FD791C;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      hr { 
+        background: linear-gradient(to right, #FD791C , #F8F8F8);
+        height: 3px;
+        opacity: 1;
+        width: 133px;
+      }
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font-size: 16px;
+      a {
+        text-decoration: none;
+        line-height: 250.69%;
+      }
+    }
+    .description {
+      text-align: left;
+      font-size: 16px;
+    }
+    .right-space {
+      margin-right: 4%;
+    }
+    .social {
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: left;
+        li {
+          float: left;
+          padding-right: 20px;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .copyrights {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.91px;
+    padding: 20px;
+    color: #FD791C;
+  }
+}
+@media (max-width: 780px) {
+  .v-footer {
+    padding: 54px 0px !important;
+  }
+}
+// mobile-view
+@media (max-width: 600px) {
+  .v-footer {
+    padding: 54px 35px 0px 35px !important;
+    .powered-by-container {
+      .tag-line {
+        white-space: nowrap;
+      }
+    }
+    .social {
+      padding-bottom: 47px;
+    }
+  }
+}
+.theme--dark {
+  .v-footer {
+    background: #272B2E !important;
+    .social {
+      .v-icon {
+        color: #B2BEC8;
+      }
+    }
+    .heading {
+      hr { 
+        background: linear-gradient(to right, #FD791C , #292D31);
+      }
+    }
+  }
+}
